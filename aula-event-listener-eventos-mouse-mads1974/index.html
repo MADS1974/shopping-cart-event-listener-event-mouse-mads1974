@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="./js/script.js" defer></script>
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Carrinho de compras</title>
+</head>
+<body>
+  <h1>Carrinho de compras</h1>
+
+  <section id="carrinho">
+    <div class="item-carrinho" id="produto-01">
+      <div class="capa"></div>
+      <div class="info-produto">
+        <h3>Dom Casmurro</h3>
+        <h4>Machado de Assis</h4>
+        <p>Valor: R$ 22.66</p>
+        <div class="quantidade-e-descricao">
+          <div class="quantidade">
+            <button id="btn-subtrair-produto-01">-</button>
+            <input id="quantidade-produto-01" type="number" value="0" min="0">
+            <button id="btn-adicionar-produto-01">+</button>
+          </div>
+          <p class="descricao">
+            Em Dom Casmurro, o narrador Bento Santiago retoma a infância que passou na Rua de Matacavalos e conta a história do amor e das desventuras que viveu com Capitu, uma das personagens mais enigmáticas e intrigantes da literatura brasileira. Nas páginas deste romance, encontra-se a versão de um homem perturbado pelo ciúme, que revela aos poucos sua psicologia complexa e enreda o leitor em sua narrativa ambígua acerca do acontecimento ou não do adultério da mulher com olhos de ressaca, uma das maiores polêmicas da literatura brasileira.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <h2>Subtotal</h2>
+  <section id="subtotal">
+  <h2 class="campos-comuns">Quantidade: <span id="quantidade-subtotal">0</span></h2>
+<p class="campos-comuns">R$ <span id="valor-subtotal">0</span></p>
+  </section>
+
+  <h2>Frete</h2>
+  <section id="frete">
+<p class="campos-comuns">CEP: <input type="text" id="cep"></p>
+<p class="campos-comuns">Valor: R$ <span id="valor-frete">0</span></p>
+  </section>
+
+  <h2>Total</h2>
+<p class="campos-comuns">R$ <span id="valor-total">0</span></p>
+  </section>
+
+  <button id="btn-finalizar-compra" class="finalizar-compra">Finalizar compra</button>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Márcio Adriano - Turma 17 - PROZ.</p>
+    <a href="https://github.com/MADS1974" target="_blank">
+      <button id="btn-mads-1974">GitHub MADS1974</button>
+    </a>
+  </footer>
+   </section>
+</body>
+
+</html>
