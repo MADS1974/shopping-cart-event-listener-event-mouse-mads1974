@@ -182,24 +182,7 @@ btnFinalizarCompra.addEventListener('click', function () {
 
 
 
-[LinkedIN](https://www.linkedin.com/in/mads1974/) - Márcio Adriano [MADS 1974]
 
-==============================================================================
-
-
-<h1 align="center">
-  Online Bookstore Shopping Cart
-</h1>
-
-<p align="center">
-  <a href="https://github.com/MADS1974/shopping-cart-event-listener-event-mouse-mads1974">🔗 Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-project"> 🖥️ Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-technologies">🚀 Technologies</a>
-</p>
-
-<p align="center">
-  <a href="https://wakatime.com/badge/user/68660678-6b86-4b78-98df-f5f41a37e1bc/project/9fc59800-279b-462d-9f12-92ea3bf5697e"><img src="https://wakatime.com/badge/user/68660678-6b86-4b78-98df-f5f41a37e1bc/project/9fc59800-279b-462d-9f12-92ea3bf5697e.svg" alt="wakatime"></a>
-</p>
 
 ## 💻 Project
 
