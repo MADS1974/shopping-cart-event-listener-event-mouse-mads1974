@@ -140,7 +140,7 @@ cepInput.addEventListener('input', function () {
   const taxaCentroOeste = 0.15; equivale a 15%
 
 Inicializa a variável valor com um valor padrão de 0.
-Verifica se o CEP pertence à região Norte/Nordeste, Thrue, taxaFrete é atribuída a NE
+Por exemplo, verifica se o CEP pertence à região Norte/Nordeste, se a verificação for True, a taxaFrete corrspondente é atribuída a NE
 E assim sucessivamente.
  
   if (cep === regiaoNorteNordeste) {
